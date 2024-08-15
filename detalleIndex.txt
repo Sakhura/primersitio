@@ -1,0 +1,36 @@
+Aca va el detalle de ciertos trozos de códigos
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link href="css/styles.css" rel="stylesheet">
+
+<link rel="preload" href="css/normalize.css" as="style">:
+ Este enlace utiliza el atributo rel="preload" para indicar al navegador que debe cargar el 
+ archivo normalize.css de antemano, antes de que se necesite. 
+ El atributo as="style" especifica que el archivo es un archivo de estilo (CSS). 
+ El preload se utiliza para mejorar el rendimiento, ya que el navegador puede cargar el 
+ archivo en segundo plano mientras se carga el resto de la página.
+
+<link rel="stylesheet" href="css/normalize.css">: 
+Este enlace carga el archivo normalize.css como un archivo de estilo (CSS) para la página. 
+El atributo rel="stylesheet" indica que el archivo es un archivo de estilo, y el navegador lo 
+aplicará a la página. El archivo normalize.css es un archivo de estilo popular que se utiliza 
+para normalizar los estilos de los elementos HTML en diferentes navegadores.
+
+<link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">: 
+Este enlace carga un archivo de estilo (CSS) desde Google Fonts, que proporciona la fuente 
+"Krub" con pesos 400 y 700. 
+El atributo rel="stylesheet" indica que el archivo es un archivo de estilo, y el navegador lo 
+aplicará a la página. La fuente se utilizará para mostrar texto en la página.
+
+<link rel="preload" href="css/styles.css" as="style">: 
+Este enlace utiliza el atributo rel="preload" para indicar al navegador que debe cargar el 
+archivo styles.css de antemano, antes de que se necesite. El atributo as="style" especifica que 
+el archivo es un archivo de estilo (CSS).
+
+<link href="css/styles.css" rel="stylesheet">: 
+Este enlace carga el archivo styles.css como un archivo de estilo (CSS) para la página. 
+El atributo rel="stylesheet" indica que el archivo es un archivo de estilo, y el navegador lo 
+aplicará a la página. El archivo styles.css contiene estilos personalizados para la página.
